@@ -50,7 +50,7 @@ function mostrarCofres() {
 function seleccionarCofre(index) {
   if (index === tesoroIndex) {
     // ⭐ Pantalla completa de victoria
-    document.body.innerHTML = `<div id="estrellaVictoria">⭐</div>`;
+    document.body.innerHTML = `<div id="estrellaVictoria">🎁</div>`;
   } else {
     const resultado = document.getElementById("resultado");
     resultado.innerHTML = `💥 Has fallado... El tesoro estaba en el cofre ${tesoroIndex + 1}`;
