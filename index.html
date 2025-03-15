@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>cuadrados</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>💰 Cofres Malditos</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="instrucciones" class="instrucciones-box">
+    <h1>💰 Cofres Malditos</h1>
+    <p>Un solo cofre contiene el tesoro. Cada uno tiene una pista... pero:</p>
+    <ul>
+      <li>⚠️ <strong>Solo UNA pista es verdadera.</strong></li>
+      <li>Las demás intentan confundirte.</li>
+      <li>Si eliges mal: 💥 fin del juego.</li>
+    </ul>
+    <button class="btn-start" onclick="empezarJuego()">✨ Empezar Desafío</button>
+  </div>
+
+  <div id="juego" style="display: none;">
+    <h2>🔐 Elige un cofre:</h2>
+    <div id="cofres"></div>
+    <div id="resultado"></div>
+    <button onclick="empezarJuego()">🔁 Jugar otra vez</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>

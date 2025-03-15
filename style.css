@@ -1,0 +1,105 @@
+body {
+  background-color: #111;
+  color: #eee;
+  font-family: 'Courier New', monospace;
+  text-align: center;
+  padding: 20px;
+}
+
+h1, h2 {
+  color: #ffc700;
+}
+
+.instrucciones-box {
+  background-color: #1a1a1a;
+  padding: 30px;
+  border-radius: 12px;
+  max-width: 600px;
+  margin: 0 auto;
+  box-shadow: 0 0 12px rgba(255, 255, 255, 0.05);
+}
+
+.instrucciones-box ul {
+  text-align: left;
+  line-height: 1.6em;
+  font-size: 1rem;
+  margin-top: 10px;
+}
+
+.btn-start {
+  background-color: #44c767;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 14px 28px;
+  font-size: 18px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.btn-start:hover {
+  background-color: #3cb45c;
+}
+
+#cofres {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 12px;
+  max-width: 600px;
+  margin: 20px auto;
+}
+
+.cofre {
+  background-color: #222;
+  border: 2px solid #555;
+  padding: 16px;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 10px;
+  transition: 0.2s;
+  color: #fff;
+  min-height: 100px;
+}
+
+.cofre:hover {
+  background-color: #333;
+}
+
+#resultado {
+  margin-top: 20px;
+  font-size: 1.4rem;
+  font-weight: bold;
+  color: gold;
+}
+
+button {
+  font-size: 16px;
+  padding: 10px 20px;
+  margin-top: 20px;
+  border-radius: 8px;
+  border: none;
+  background-color: #444;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #666;
+}
+
+/* 🌟 Estrella pantalla completa */
+#estrellaVictoria {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 25vw;
+  height: 100vh;
+  background-color: #111;
+  color: gold;
+  animation: brillar 1s infinite alternate;
+}
+
+@keyframes brillar {
+  from { transform: scale(1); opacity: 0.8; }
+  to { transform: scale(1.1); opacity: 1; }
+}
